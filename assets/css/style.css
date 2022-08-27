@@ -779,7 +779,7 @@ textarea {
   margin: 0;
   font-size: 15px;
   font-weight: 800;
-    font-family: "helvetica";
+  font-family: "helvetica";
 }
 .nice-select.open::after {
   -webkit-transform: rotate(180deg);
@@ -1226,7 +1226,7 @@ textarea {
 }
 .template-header .language-selection .nice-select::before {
   content: "\f0ac";
-    font-family: "helvetica";
+  font-family: "helvetica";
   position: absolute;
   left: 25px;
   font-size: 18px;
@@ -3711,7 +3711,7 @@ textarea {
   content: "\f00c";
   left: 0;
   top: 2px;
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-size: 16px;
   color: var(--color-primary);
   font-weight: 800;
@@ -3734,7 +3734,7 @@ textarea {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-    font-family: "helvetica";
+  font-family: "helvetica";
   background-color: var(--color-primary-3);
   color: var(--color-white);
   font-size: 13px;
@@ -3764,7 +3764,7 @@ textarea {
 .check-list-3 li::before {
   position: absolute;
   content: "\f00c";
-    font-family: "helvetica";
+  font-family: "helvetica";
   left: 0;
   top: 0;
   width: 30px;
@@ -5731,7 +5731,7 @@ textarea {
   background-color: var(--color-secondary);
   color: var(--color-white);
   content: "\f00c";
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-weight: 900;
   font-size: 15px;
 }
@@ -5785,7 +5785,7 @@ textarea {
   background-color: var(--color-primary);
   color: var(--color-white);
   content: "\f00c";
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-weight: 900;
   font-size: 15px;
 }
@@ -6727,7 +6727,7 @@ textarea {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   content: "\f058";
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-size: 15px;
   font-weight: 900;
   color: var(--color-primary);
@@ -6852,7 +6852,7 @@ textarea {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   content: "\f058";
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-size: 15px;
   font-weight: 900;
   color: var(--color-secondary);
@@ -7721,7 +7721,7 @@ textarea {
   .accordion-item
   .accordion-header
   .accordion-button::after {
-    font-family: "helvetica";
+  font-family: "helvetica";
   background-image: none;
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
@@ -7836,7 +7836,7 @@ textarea {
   line-height: 30px;
   margin-right: 15px;
   border-radius: 50%;
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-size: 15px;
   font-weight: 600;
   color: var(--color-white);
@@ -10923,7 +10923,7 @@ textarea {
   position: absolute;
   right: 0;
   content: "\f105";
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-weight: 400;
 }
 .blog-sidebar .widget.category-widget li a:hover {
@@ -11191,7 +11191,7 @@ textarea {
 .comments-template .comments-list .comment .reply::after {
   content: "\f178";
   display: inline-block;
-    font-family: "helvetica";
+  font-family: "helvetica";
   padding-left: 10px;
 }
 .comments-template .comments-respond {
@@ -11699,7 +11699,7 @@ textarea {
   font-weight: 400;
   position: absolute;
   display: inline-block;
-    font-family: "helvetica";
+  font-family: "helvetica";
 }
 
 .shop-sidebar .products-widget li {
@@ -11944,7 +11944,7 @@ textarea {
   content: "\f054";
   position: absolute;
   left: 0;
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-weight: 800;
   font-size: 14px;
   top: 2px;
@@ -12653,7 +12653,7 @@ textarea {
   content: "\f105";
   padding-left: 12px;
   padding-right: 12px;
-    font-family: "helvetica";
+  font-family: "helvetica";
   font-size: inherit;
   color: var(--color-heading);
   position: relative;
