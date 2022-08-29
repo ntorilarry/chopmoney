@@ -1589,4 +1589,11 @@
   .no-gutters{
     text-align: center;
   }
+  .cta-text{
+    padding-right: 0px;
+    text-align: center;
+  }
+  .cta-btns {
+    justify-content: center;
+  }
 }
