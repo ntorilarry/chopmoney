@@ -1586,20 +1586,23 @@
   .hero-area-v3 .hero-content .hero-title {
     text-align: center;
   }
-  .no-gutters{
+  .no-gutters {
     text-align: center;
   }
-  .cta-text{
+  .cta-text {
     padding-right: 0px;
     text-align: center;
   }
   .cta-btns {
     justify-content: center;
   }
-  .common-heading{
+  .common-heading {
     text-align: center;
   }
-  .template-footer{
+  .template-footer {
     text-align: center;
+  }
+  .faqImage {
+    display: none;
   }
 }
