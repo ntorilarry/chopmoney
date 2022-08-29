@@ -1586,4 +1586,7 @@
   .hero-area-v3 .hero-content .hero-title {
     text-align: center;
   }
+  .no-gutters{
+    text-align: center;
+  }
 }
