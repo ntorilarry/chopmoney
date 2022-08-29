@@ -2287,7 +2287,7 @@ textarea {
   color: var(--color-white);
 }
 .template-btn.white-bg.bordered-btn {
-  background-color: transparent;
+  background-color: black;
   color: var(--color-white);
   border-color: rgba(255, 255, 255, 0.15);
 }
@@ -2559,9 +2559,9 @@ textarea {
   padding-bottom: 150px;
 }
 .hero-area-v3 .hero-content .hero-title {
-  font-size: 85px;
+  font-size: 80px;
   line-height: 1.15;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   letter-spacing: -3px;
   color: var(--color-white);
 }

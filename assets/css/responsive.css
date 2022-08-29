@@ -967,7 +967,7 @@
     background-size: contain;
   }
   .hero-area-v3 .hero-content {
-    padding-bottom: 100px;
+    padding-bottom: 125px;
   }
   .hero-area-v3 .hero-content .hero-title {
     font-size: 45px;
@@ -1605,4 +1605,5 @@
   .faqImage {
     display: none;
   }
+ 
 }
