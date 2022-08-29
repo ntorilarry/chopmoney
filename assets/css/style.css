@@ -2561,7 +2561,7 @@ textarea {
 .hero-area-v3 .hero-content .hero-title {
   font-size: 80px;
   line-height: 1.15;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   letter-spacing: -3px;
   color: var(--color-white);
 }
@@ -2585,7 +2585,7 @@ textarea {
 }
 .hero-area-v3 .hero-content p {
   color: var(--color-white);
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 
 }
 .hero-area-v3 .hero-img {
