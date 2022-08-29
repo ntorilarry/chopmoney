@@ -2586,6 +2586,7 @@ textarea {
 .hero-area-v3 .hero-content p {
   color: var(--color-white);
   margin-bottom: 35px;
+
 }
 .hero-area-v3 .hero-img {
   padding-left: 50px;
@@ -3509,6 +3510,13 @@ textarea {
 @media (max-width: 767px) {
   .hero-area-v12 .hero-content h1 {
     font-size: 50px;
+  }
+}
+@media (max-width: 600px){
+  .hero-area-v3 .hero-content p {
+    color: var(--color-white);
+    margin-bottom: 35px;
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
