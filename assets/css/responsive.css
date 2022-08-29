@@ -1596,4 +1596,10 @@
   .cta-btns {
     justify-content: center;
   }
+  .common-heading{
+    text-align: center;
+  }
+  .template-footer{
+    text-align: center;
+  }
 }
