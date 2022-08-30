@@ -7730,7 +7730,7 @@ textarea {
   .accordion-item
   .accordion-header
   .accordion-button::after {
-  font-family: "helvetica";
+  font-family: "FontAwesome";
   background-image: none;
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
