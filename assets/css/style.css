@@ -11953,7 +11953,7 @@ textarea {
   content: "\f054";
   position: absolute;
   left: 0;
-  font-family: "helvetica";
+  font-family: FontAwesome;
   font-weight: 800;
   font-size: 14px;
   top: 2px;
