@@ -11,8 +11,8 @@ function Features() {
           <div className="max-w-xl mx-auto mb-10">
             <img src="https://i.postimg.cc/hGsWCgFV/home.gif" alt="" />
           </div>
-          <div className="grid gap-5 row-gap-5 sm:grid-cols-2">
-            <div className="max-w-xs border p-8 ">
+          <div className="grid content-center row-gap-5 sm:grid-cols-2">
+            <div className="max-w-xs border p-8">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
@@ -36,7 +36,7 @@ function Features() {
                 experience as snappy as possible.
               </p>
             </div>
-            <div className="max-w-xs border p-8">
+            <div className="max-w-xs border p-8 ">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
@@ -84,7 +84,7 @@ function Features() {
                 experience.
               </p>
             </div>
-            <div className="max-w-xs border p-8">
+            <div className="max-w-xs border p-8 ">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
