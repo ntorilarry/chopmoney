@@ -22,7 +22,7 @@ function Navbar() {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
+                href="/#what"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
