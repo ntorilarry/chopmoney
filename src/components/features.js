@@ -3,7 +3,7 @@ import React from "react";
 function Features() {
   return (
     <div id="what">
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <h2 className="max-w-lg mb-14 text-center text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           Create a budget and stick to it! We help you do the latter.
         </h2>
@@ -11,7 +11,7 @@ function Features() {
           <div className="max-w-xl mx-auto mb-10">
             <img src="https://i.postimg.cc/hGsWCgFV/home.gif" alt="" />
           </div>
-          <div className="grid content-center row-gap-5 sm:grid-cols-2">
+          <div className="grid content-center row-gap-5 sm:grid-cols-2 m-auto">
             <div className="max-w-xs border p-8">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
