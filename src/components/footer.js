@@ -12,39 +12,21 @@ function Footer() {
               title="Company"
               className="inline-flex items-center"
             >
-              <svg
-                className="w-8 text-deep-purple-accent-400"
-                viewBox="0 0 24 24"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                stroke="currentColor"
-                fill="none"
-              >
-                <rect x="3" y="1" width="7" height="12" />
-                <rect x="3" y="17" width="7" height="6" />
-                <rect x="14" y="1" width="7" height="6" />
-                <rect x="14" y="11" width="7" height="12" />
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
-                Company
-              </span>
+              <img
+              src="https://i.postimg.cc/tJHbHfYz/logo-white-2.png"
+              alt="logo"
+            />
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-white">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+              If you're looking for a smart and easy way to stick to your budget, Chopmoney is the perfect solution. It's free to use!
               </p>
-              <p className="mt-4 text-sm text-white">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </p>
+
             </div>
           </div>
           <div className="space-y-2 text-sm">
             <p className="text-base font-bold tracking-wide text-white">
-              Contacts
+              Company
             </p>
             <div className="flex">
               <p className="mr-1 text-white">Phone:</p>
@@ -52,9 +34,9 @@ function Footer() {
                 href="tel:850-123-5021"
                 aria-label="Our phone"
                 title="Our phone"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-                850-123-5021
+              About Chopmoney
               </a>
             </div>
             <div className="flex">
@@ -63,9 +45,9 @@ function Footer() {
                 href="mailto:info@lorem.mail"
                 aria-label="Our email"
                 title="Our email"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-                info@lorem.mail
+             Contact & Support
               </a>
             </div>
             <div className="flex">
@@ -76,9 +58,9 @@ function Footer() {
                 rel="noopener noreferrer"
                 aria-label="Our address"
                 title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-                312 Lovely Street, NY
+              Download Chopmoney
               </a>
             </div>
           </div>
