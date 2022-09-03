@@ -13,15 +13,15 @@ function Footer() {
               className="inline-flex items-center"
             >
               <img
-              src="https://i.postimg.cc/tJHbHfYz/logo-white-2.png"
-              alt="logo"
-            />
+                src="https://i.postimg.cc/tJHbHfYz/logo-white-2.png"
+                alt="logo"
+              />
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-white">
-              If you're looking for a smart and easy way to stick to your budget, Chopmoney is the perfect solution. It's free to use!
+                If you're looking for a smart and easy way to stick to your
+                budget, Chopmoney is the perfect solution. It's free to use!
               </p>
-
             </div>
           </div>
           <div className="space-y-2 text-sm">
@@ -29,38 +29,27 @@ function Footer() {
               Company
             </p>
             <div className="flex">
-              <p className="mr-1 text-white">Phone:</p>
               <a
-                href="tel:850-123-5021"
-                aria-label="Our phone"
-                title="Our phone"
+                href="/"
                 className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-              About Chopmoney
+                About Chopmoney
               </a>
             </div>
             <div className="flex">
-              <p className="mr-1 text-gray-800">Email:</p>
               <a
-                href="mailto:info@lorem.mail"
-                aria-label="Our email"
-                title="Our email"
+                href="/"
                 className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-             Contact & Support
+                Contact & Support
               </a>
             </div>
             <div className="flex">
-              <p className="mr-1 text-gray-800">Address:</p>
               <a
-                href="https://www.google.com/maps"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Our address"
-                title="Our address"
+                href="/"
                 className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-              Download Chopmoney
+                Download Chopmoney
               </a>
             </div>
           </div>
