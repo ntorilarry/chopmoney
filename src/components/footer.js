@@ -68,7 +68,7 @@ function Footer() {
           <p className="text-sm text-white">
           © 2022 Chopmoney. All Rights Reserved
           </p>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          <ul className="flex flex-row mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
                 href="/"
@@ -80,7 +80,6 @@ function Footer() {
               </a>
             </li>
             <li>
-              {" "}
               <a
                 href="/"
                 className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
