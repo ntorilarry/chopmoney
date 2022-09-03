@@ -46,7 +46,7 @@ function Faq() {
 
   return (
     <div>
-      <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36">
+      <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-12">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 gap-y-8 lg:items-center lg:grid-cols-2 sm:gap-y-20 xl:grid-cols-5">
             <div className=" xl:col-span-2 lg:text-left md:px-16 lg:px-0">
