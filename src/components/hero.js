@@ -5,7 +5,7 @@ import { AiFillApple } from "react-icons/ai";
 
 function Hero() {
   return (
-    <div className="bgr">
+    <div className="bgr lg:h-[100vh]">
       <section className="relative pt-12 ">
         <div className="absolute bottom-0 right-0 overflow-hidden">
           <img
@@ -27,7 +27,7 @@ function Hero() {
               <a
                 href="#"
                 title=""
-                className="inline-flex px-8 mr-4 py-4 mt-8 text-lg font-bold text-black transition-all duration-200 bg-[#ECEC0B] border border-transparent rounded sm:mt-10 font-pj hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                className="inline-flex px-8 mr-4 py-4 mt-8 text-lg font-bold text-black transition-all duration-200 bg-[#ECEC0B] border border-transparent sm:mt-10 font-pj hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                 role="button"
               >
                 Apple Store
@@ -36,7 +36,7 @@ function Hero() {
               <a
                 href="#"
                 title=""
-                className="inline-flex px-8 mr-4 py-4 mt-8 text-lg font-bold text-white transition-all duration-200 bg-black border border-transparent rounded sm:mt-10 font-pj hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                className="inline-flex px-8 mr-4 py-4 mt-8 text-lg font-bold text-white transition-all duration-200 bg-black border border-transparent sm:mt-10 font-pj hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                 role="button"
               >
                 Play Store{" "}
