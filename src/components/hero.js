@@ -10,7 +10,7 @@ import Footer from "./footer";
 function Hero() {
   return (
     <div>
-    <div className="bgr lg:h-[100vh]">
+    <div className="bgr">
       <section className="relative pt-12 ">
         <div className="absolute bottom-0 right-0 overflow-hidden">
           <img
