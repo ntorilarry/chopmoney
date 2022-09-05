@@ -2,9 +2,14 @@ import React from "react";
 import "../styles/hero.css";
 import { FaGooglePlay } from "react-icons/fa";
 import { AiFillApple } from "react-icons/ai";
+import Features from "./features";
+import Appinfo from "./appinfo";
+import Faq from "./faq";
+import Footer from "./footer";
 
 function Hero() {
   return (
+    <div>
     <div className="bgr lg:h-[100vh]">
       <section className="relative pt-12 ">
         <div className="absolute bottom-0 right-0 overflow-hidden">
@@ -54,6 +59,11 @@ function Hero() {
           </div>
         </div>
       </section>
+    </div>
+    <Features/>
+    <Appinfo/>
+    <Faq/>
+    <Footer/>
     </div>
   );
 }

@@ -69,7 +69,7 @@ function Faq() {
                           className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
                           onClick={() => toggleFaq(index)}
                         >
-                          <span className="flex text-lg text-left text-black">
+                          <span className="flex text-md text-left text-black">
                             {" "}
                             {item.question}{" "}
                           </span>
@@ -97,7 +97,7 @@ function Faq() {
                             item.open ? "block" : "hidden"
                           } px-4 pb-5 sm:px-6 sm:pb-6`}
                         >
-                          <p
+                          <p className="text-md"
                             dangerouslySetInnerHTML={{ __html: item.answer }}
                           ></p>
                         </div>

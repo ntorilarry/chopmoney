@@ -1,20 +1,19 @@
 import React from "react";
-import Appinfo from "./components/appinfo";
-import Faq from "./components/faq";
-import Features from "./components/features";
-import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import { Routes, Route } from "react-router-dom";
+import ChopmoneyStory from "./components/chopmoneyStory";
+import Contact from "./components/contact";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <Features />
-      <Appinfo />
-      <Faq/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Hero />}></Route>
+        <Route path="/the-chopmoney-story" element={<ChopmoneyStory />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </div>
   );
 }

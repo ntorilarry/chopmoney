@@ -54,19 +54,39 @@ function Footer() {
             </div>
           </div>
           <div>
-            <span className="text-base font-bold tracking-wide text-gray-900">
-              Social
+            <span className="text-base font-bold tracking-wide text-white">
+              Contact Us
             </span>
-            <div className="flex items-center mt-1 space-x-3"></div>
-            <p className="mt-4 text-sm text-gray-500">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
-            </p>
+
+            <div className="flex">
+              <a
+                href="/"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
+              >
+                Anyaa School Junction,<br/> Accra, Ghana
+              </a>
+            </div>
+            <div className="flex">
+              <a
+                href="/"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
+              >
+               support@gmail.com
+              </a>
+            </div>
+            <div className="flex">
+              <a
+                href="/"
+                className="transition-colors duration-300 text-white hover:text-deep-purple-800"
+              >
+               tel:+233555190488
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-white">
-          © 2022 Chopmoney. All Rights Reserved
+            © 2022 Chopmoney. All Rights Reserved
           </p>
           <ul className="flex flex-row mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>

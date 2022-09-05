@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../styles/navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +34,8 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/the-chopmoney-story"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -43,11 +44,11 @@ function Navbar() {
                   {" "}
                   The Chopmoney Story
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/contact"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -55,7 +56,7 @@ function Navbar() {
                 <span class="link link-underline link-underline-black">
                   Contact
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
           <div class="lg:hidden">
@@ -126,24 +127,24 @@ function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/the-chopmoney-story"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           The Chopmoney Story
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/contact"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
