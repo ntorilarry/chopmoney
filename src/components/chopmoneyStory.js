@@ -9,9 +9,6 @@ function ChopmoneyStory() {
           <div className="relative px-4 sm:px-6 lg:px-8">
             <div className="text-lg mx-auto">
               <h1>
-                <span className="block text-base text-center text-[#00a14b] font-semibold tracking-wide uppercase">
-                  Blog Article
-                </span>
                 <span className="mt-2 block text-3xl text-center leading-8 font-semiabold tracking-tight text-gray-900 sm:text-4xl">
                   Who we are
                 </span>
