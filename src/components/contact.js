@@ -87,7 +87,7 @@ function Contact() {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 rounded-lg shadow-sm text-base font-medium text-white bg-[#0d0d0d] hover:bg-[#2d2d2d] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="w-full inline-flex items-center justify-center px-6 py-3 shadow-sm text-base font-medium text-white bg-[#0d0d0d] hover:bg-[#2d2d2d] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Submit
               </button>
