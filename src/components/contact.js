@@ -8,7 +8,7 @@ function Contact() {
     >
       <div className="relative max-w-xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900 sm:text-3xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
             Contact Us
           </h2>
         </div>
