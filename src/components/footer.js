@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,21 +10,19 @@ function Footer() {
             <nav class="py-12">
               <ul class="flex flex-wrap justify-center text-xl font-bold gap-10">
                 <li>
-                  <a
+                  <Link
                     class="text-gray-900 transition hover:text-gray-900/75 bg-[#f2f2f3] py-4 px-4 rounded-full"
-                    href="/"
-                    target="_blank"
+                    to="/the-chopmoney-story"
                     rel="noopener noreferrer"
                   >
                     The Chopmoney Story
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
                   <a
                     class="text-gray-900 transition hover:text-gray-900/75 bg-[#f2f2f3] py-4 px-4 rounded-full"
-                    href="/"
-                    target="_blank"
+                    href="/#faq"
                     rel="noopener noreferrer"
                   >
                     FAQs
@@ -33,8 +32,7 @@ function Footer() {
                 <li>
                   <a
                     class="text-gray-900 transition hover:text-gray-900/75 bg-[#f2f2f3] py-4 px-4 m-4 rounded-full"
-                    href="/"
-                    target="_blank"
+                    href="mailto:okatakyie@chopmoney.co"
                     rel="noopener noreferrer"
                   >
                     Contact
