@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer";
 
 function ChopmoneyStory() {
   return (
@@ -13,7 +14,7 @@ function ChopmoneyStory() {
                   Who we are
                 </span>
               </h1>
-              <p className="mt-8 text-md text-gray-500 leading-8 text-justify">
+              <p className="my-8 text-md text-gray-500 leading-8 text-justify">
                 We are there for you if you're looking for a smart and easy way
                 to stick to your budget, Chopmoney is the perfect solution. With
                 our daily automatic payouts, you can save up and spend wisely -
@@ -24,7 +25,7 @@ function ChopmoneyStory() {
               <h1 className="mt-2 block text-3xl text-center leading-8 font-semiabold tracking-tight text-gray-900 sm:text-4xl">
                 Our Mission
               </h1>
-              <p className="mt-8 text-md text-gray-500 leading-8 text-justify">
+              <p className="my-8 text-md text-gray-500 leading-8 text-justify">
                 As a daring problem identified, people generally want to have
                 more money aka become rich. Books on financial knowledge all say
                 “Create a budget and stick to it” as if it’s that easy, we’ve
@@ -43,7 +44,7 @@ function ChopmoneyStory() {
               <h1 className="mt-2 block text-3xl text-center leading-8 font-semiabold tracking-tight text-gray-900 sm:text-4xl">
                 Our Vision
               </h1>
-              <p className="mt-8 text-md text-gray-500 leading-8 text-justify">
+              <p className="my-8 text-md text-gray-500 leading-8 text-justify">
                 Chopmoney is the budgeting app that will help you live your best
                 life! With Chopmoney, you can set aside a certain amount of
                 money each day to spend on whatever you want – whether it's a
@@ -56,6 +57,7 @@ function ChopmoneyStory() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
