@@ -6,7 +6,6 @@ import Features from "./features";
 import Appinfo from "./appinfo";
 import Faq from "./faq";
 import Footer from "./footer";
-import Contact from "./contact";
 
 function Hero() {
   return (
@@ -64,7 +63,6 @@ function Hero() {
     <Features/>
     <Appinfo/>
     <Faq/>
-    <Contact/>
     <Footer/>
     </div>
   );

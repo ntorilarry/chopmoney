@@ -46,18 +46,6 @@ function Navbar() {
                 </span>
               </Link>
             </li>
-            <li>
-              <Link
-                to="/contact"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                <span class="link link-underline link-underline-black">
-                  Contact
-                </span>
-              </Link>
-            </li>
           </ul>
           <div class="lg:hidden">
             <button
@@ -134,16 +122,6 @@ function Navbar() {
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           The Chopmoney Story
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/contact"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Contact
                         </Link>
                       </li>
                     </ul>
