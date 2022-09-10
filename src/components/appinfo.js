@@ -18,6 +18,7 @@ function Appinfo() {
             <div className="pb-4 mb-4">
               <h6 className="text-[28px] text-center lg:text-left sm:text-[46px] font-semibold ">
                 Download Chopmoney Now!
+                <img className="line mb-6 mx-auto lg:mx-0" src="https://i.postimg.cc/ZRdtVH1K/title-line-2.png" alt=""/>
               </h6>
               <p className="text-[17px] text-[#6e727d] text-center lg:text-left mb-[10px]">
                 If you're looking for a smart and easy way to stick to your
