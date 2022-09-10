@@ -1,0 +1,35 @@
+.circle1 {
+  background-image: linear-gradient(
+    130deg,
+    #f33946 0%,
+    #c81d9a 59%,
+    #9c00ed 100%
+  );
+}
+
+.circle2 {
+  background-image: linear-gradient(
+    130deg,
+    #4639f3 0%,
+    #711df0 59%,
+    #9c00ed 100%
+  );
+}
+
+.circle3 {
+  background-image: linear-gradient(
+    130deg,
+    #1f5dfb 0%,
+    #10a5cf 59%,
+    #00eda2 100%
+  );
+}
+
+.circle4 {
+  background-image: linear-gradient(
+    130deg,
+    #fdba1a 0%,
+    #f55d64 59%,
+    #ed00ad 100%
+  );
+}

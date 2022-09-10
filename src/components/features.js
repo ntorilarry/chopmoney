@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/features.css"
 
 function Features() {
   return (
@@ -14,7 +15,7 @@ function Features() {
           </div>
           <div className="grid content-center row-gap-5 sm:grid-cols-2 m-auto">
             <div className="max-w-xs border p-8">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle1">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
                   stroke="currentColor"
@@ -38,7 +39,7 @@ function Features() {
               </p>
             </div>
             <div className="max-w-xs border p-8 ">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle2">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
                   stroke="currentColor"
@@ -61,7 +62,7 @@ function Features() {
               </p>
             </div>
             <div className="max-w-xs border p-8">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle3">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
                   stroke="currentColor"
@@ -86,7 +87,7 @@ function Features() {
               </p>
             </div>
             <div className="max-w-xs border p-8 ">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle4">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400"
                   stroke="currentColor"
