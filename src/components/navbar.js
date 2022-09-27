@@ -106,7 +106,7 @@ function Navbar() {
                     <ul class="space-y-4">
                       <li>
                         <a
-                          href="/"
+                          href="/#what"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
