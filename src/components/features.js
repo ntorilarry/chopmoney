@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/features.css"
+import Userchart from "../assets/userchart.png"
+import Flame from "../assets/flame.png"
+import Fingerprint from "../assets/fingerprint.png"
+import Clock from "../assets/clock.png"
 
 function Features() {
   return (
@@ -16,19 +20,7 @@ function Features() {
           <div className="grid content-center row-gap-5 sm:grid-cols-2 m-auto">
             <div className="max-w-xs border p-8">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle1">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+          <img className="m-auto w-8" src="https://i.postimg.cc/c1mSVLvb/userchart.png" alt=""/>
               </div>
               <h6 className="mb-2 text-xl font-semibold leading-5 pt-4">
                 Easy-to-use
@@ -40,19 +32,7 @@ function Features() {
             </div>
             <div className="max-w-xs border p-8 ">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle2">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+              <img className="m-auto w-8" src="https://i.postimg.cc/9MPhXWJz/clock.png" alt=""/>
               </div>
               <h6 className="mb-2 text-xl font-semibold leading-5 pt-4">
                 Just like clock-work{" "}
@@ -63,19 +43,7 @@ function Features() {
             </div>
             <div className="max-w-xs border p-8">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle3">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+              <img className="m-auto w-8" src="https://i.postimg.cc/hPqtWt1F/fingerprint.png" alt=""/>
               </div>
               <h6 className="mb-2 font-semibold text-xl leading-5 pt-4">
                 Customised plans
@@ -88,19 +56,7 @@ function Features() {
             </div>
             <div className="max-w-xs border p-8 ">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 circle4">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+              <img className="m-auto w-8" src="https://i.postimg.cc/sD9DVCTM/flame.png" alt=""/>
               </div>
               <h6 className="mb-2 text-xl font-semibold leading-5 pt-4">
                 Totally freeeee!{" "}

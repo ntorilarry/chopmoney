@@ -35,18 +35,18 @@ function Hero() {
               <div className="text-center xl:col-span-1 lg:text-left md:px-16 lg:px-0 xl:pr-20">
                 <h1
                   className="text-4xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight lg:text-7xl lg:leading-tight wow fadeInLeft"
-                  data-wow-delay="0.5s"
+                  data-wow-delay="0.2s"
                 >
                   Pay yourself anytime, any day!
                 </h1>
                 <p
                   className="mt-2 text-lg text-white sm:mt-6 font-light wow fadeInLeft"
-                  data-wow-delay="0.4s"
+                  data-wow-delay="0.1s"
                 >
                   Whether you’re a Big Spender or an Economic Guru, your money
                   makes it to Friday. We help you budget for rainy days.
                 </p>
-                <div className="wow fadeInLeft" data-wow-delay="0.5s">
+                <div className="wow fadeInLeft" data-wow-delay="0.2s">
                   <a
                     href="/"
                     title=""
