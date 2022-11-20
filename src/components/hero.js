@@ -21,8 +21,8 @@ function Hero() {
   
   return (
     <div>
-      <div className="bgr">
-        <section className="relative pt-12 ">
+      <div className="bgr ">
+        <section className="relative  h-[90vh] flex justify-center items-center lg:items-end">
           <div className="absolute bottom-0 right-0 overflow-hidden">
             <img
               className="w-full h-auto origin-bottom-right transform scale-150 lg:w-auto lg:mx-auto lg:object-cover lg:scale-75"
@@ -68,7 +68,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="xl:col-span-1">
+              <div className="xl:col-span-1 hidden lg:flex">
                 <img
                   className="w-[80%] mx-auto"
                   src="https://i.postimg.cc/50Grck22/phonescreen2.gif"
