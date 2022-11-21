@@ -1,1 +1,1 @@
-link: chopmoney.co
+link: https://chopmoney.co/
